@@ -1,0 +1,3 @@
+      " this will restore from a previous checkpoint; replace names accordingly"
+      ckpt = '/home/templarares/acme/dfba59ea-9006-11ed-adb3-0c9d92c3ff60/checkpoints/d4pg_learner/ckpt-1691'
+      self._checkpointer._checkpoint.restore(ckpt).expect_partial()
